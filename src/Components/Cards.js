@@ -7,6 +7,7 @@ function Cards() {
   return (
     <div id="parent">
       <section id="projects" className="text-gray-200 bg-yellow-50 body-font">
+        <div className="card-container ">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
           <div className=" flex-col w-full mb-20">
             <CodeIcon className="mx-auto inline-block w-10 mb-4 text-black" />
@@ -60,6 +61,7 @@ function Cards() {
             </div>
           </div>
         ))}
+        </div>
       </section>
     </div>
   );
