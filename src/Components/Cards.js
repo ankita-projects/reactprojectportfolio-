@@ -7,7 +7,7 @@ function Cards() {
   return (
     <div id="parent">
       <section id="projects" className="text-gray-200 bg-yellow-50 body-font">
-        <div className="card-container ">
+       
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
           <div className=" flex-col w-full mb-20">
             <CodeIcon className="mx-auto inline-block w-10 mb-4 text-black" />
@@ -22,10 +22,11 @@ function Cards() {
           </div>
         </div>
 
+        <div className="card-container">
         {projects.projects.map((project) => (
-          <div className="container my-12 mx-auto px-4 md:px-12">
-            <div className="flex flex-wrap -mx-1 lg:-mx-4">
-              <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+         
+          
+              <div className="my-1 px-1 w-auto md:w-1/2 lg:my-4 lg:px-4 lg:w-102">
                 <article className="overflow-hidden rounded-lg shadow-lg">
                   <a href={project.link}>
                     <img
@@ -58,8 +59,8 @@ function Cards() {
                   </a>
                 </article>
               </div>
-            </div>
-          </div>
+       
+       
         ))}
         </div>
       </section>
