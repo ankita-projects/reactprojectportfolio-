@@ -26,7 +26,7 @@ function Cards() {
         {projects.projects.map((project) => (
          
           
-              <div className="my-1 px-1 w-auto md:w-1/2 lg:my-4 lg:px-4 lg:w-102">
+              <div className="my-1/2 px-1/2 w-auto md:w-9/12 lg:my-4 lg:px-4 lg:w-102">
                 <article className="overflow-hidden rounded-lg shadow-lg">
                   <a href={project.link}>
                     <img
