@@ -4,7 +4,7 @@ import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import Cards from './Components/Cards';
 import Skills from './Components/Skills';
-import Testimonials from './Components/Testimonials';
+import Resume from './Components/Resume';
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
      <About/>
      <Cards />
      <Skills/>
-     <Testimonials/>
+     <Resume/>
      <Contact/>
    </main>
   );
