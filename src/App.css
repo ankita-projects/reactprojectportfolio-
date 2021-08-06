@@ -14,3 +14,89 @@ img-container {
   column-gap: 1rem;
   margin-left: 9rem;
 }
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.site-nav li {
+  display: inline-block;
+  margin: 0.5rem 1rem;
+}
+.heading{
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  color: aliceblue;
+}
+.title{
+  color: aliceblue;
+  font-size: 30px;
+}
+.link{
+  color: rgb(165, 60, 60);
+}
+li, a, p {
+  font-size: 1.375rem;
+  line-height: 1.8;
+  max-width: 60ch;
+}
+.resume-contact li {
+  display: block;
+}
+.flex-wrap-center * {
+  margin-top: 0.5rem;
+}
+.heading-1{
+  font-size: 3.5rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+section:first-child {
+  padding-top: 3rem;
+}
+section {
+  min-height: auto;
+  display: block;
+}
+.flex-wrap-center * {
+  margin-top: 0.5rem;
+}
+.flex-wrap-center {
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-2{
+  font-size: 4.2rem;
+  font-weight: bold;
+  display: block;
+  margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+main * + * {
+  margin-top: 2rem;
+}
+.page-wrap {
+  margin: 1rem;
+}
+.site-nav {
+  align-items: center;
+}
+h3{
+  font-size: 2rem;
+}
+.table-of-contents li {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
