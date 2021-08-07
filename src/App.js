@@ -14,7 +14,6 @@ function App() {
      <About/>
      <Cards />
      <Skills/>
-     <Resume/>
      <Contact/>
    </main>
   );
