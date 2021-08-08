@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import Cards from './Components/Cards';
 import Skills from './Components/Skills';
 import Resume from './Components/Resume';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

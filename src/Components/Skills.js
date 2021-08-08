@@ -24,18 +24,19 @@ function Skills() {
         <div className="flex flex-wrap lg:w-1/2 sm:mx-auto sm:mb-2 -mx-2">
           {projects.skills.map((skill) => (
             <div key={skill.id} className="p-2 sm:w-1/10 w-1/6">
-              <div className="bg-white rounded flex p-1 object-fit: contain;">
-                <svg
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="svg-icon"
-                  aria-hidden="true"
-                >
-                  <path d={skill.d}></path>
-                </svg>
-                {skill.title}
-              </div>
+              <main class="hexagon-container">
+                <div class="hexagon color-sass">
+                  <svg
+                    aria-labelledby="simpleicons-sass-icon"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d={skill.d}></path>
+                  </svg>
+                  {skill.title}
+                </div>
+              </main>
             </div>
           ))}
         </div>
