@@ -13,13 +13,8 @@ function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+          I'm a fullstack developer based in Helsinki.I develope responsive web applications with Reactjs for frontend and express, nodejs, and PHP for backend. I have also experince in working with mongoDB, mySQL databases. 
           </p>
-        </div>
-        <div className="heading">
-          <h1>Front End</h1>
         </div>
         <div className="flex flex-wrap lg:w-1/2 sm:mx-auto sm:mb-2 -mx-2">
           {projects.skills.map((skill) => (

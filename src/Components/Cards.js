@@ -15,9 +15,7 @@ function Cards() {
             Portfolio
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo facilis repellat ab cupiditate alias vero aliquid
-              obcaecati quisquam fuga dolore.
+            I'm a fullstack developer based in Helsinki.I develope responsive web applications with Reactjs for frontend and express, nodejs, and PHP for backend. I have also experince in working with mongoDB, mySQL databases. 
             </p>
           </div>
         </div>
