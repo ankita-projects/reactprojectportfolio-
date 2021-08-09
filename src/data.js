@@ -27,12 +27,12 @@ const projects = [
     github: "https://github.com/bch-team-summer-project/iknow",
   },
   {
-    title: "Pokedex",
-    subtitle: "Deployed Version",
+    title: "Portfolio",
+    subtitle: "My projects portfolio",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "Created my own portfolio project with Reactjs, learned a few tricks along the way about what to do and what not to do for a pixel perfect UI. ",
+    image: "./images/Capture.JPG",
+    link: " #",
     github: "https://github.com/ankita-projects/ankita-projects.github.io/tree/master/Pokedex",
   },
 ];
