@@ -33,7 +33,7 @@ const projects = [
       "Created my own portfolio project with Reactjs, learned a few tricks along the way about what to do and what not to do for a pixel perfect UI. ",
     image: "./images/Capture.JPG",
     link: " #",
-    github: "https://github.com/ankita-projects/ankita-projects.github.io/tree/master/Pokedex",
+    github: "https://github.com/ankita-projects/reactprojectportfolio-",
   },
 ];
 
