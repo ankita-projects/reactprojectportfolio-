@@ -21,9 +21,9 @@ function Cards() {
         </div>
 
         <div className="card-container">
+      
         {projects.projects.map((project) => (
-         
-          
+                   
               <div className="my-1/2 px-1/2 w-auto md:w-9/12 lg:my-4 lg:px-4 lg:w-102">
                 <article className="overflow-hidden rounded-lg shadow-lg">
                   <a href={project.link}>
@@ -56,11 +56,14 @@ function Cards() {
                   </a>
                 </article>
               </div>
+              
        
-       
+              
         ))}
+     
         </div>
       </section>
+
     </div>
   );
 }

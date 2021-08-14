@@ -11,7 +11,7 @@
 
   /* Colors */
   --color-hex-default: #090a09;
-  --color-hex-hover: #f1ca80;
+  --color-hex-hover: #ebbe6b;
   --color-bootstrap: #563d7c;
   --color-css: #1572b6;
   --color-git: #f14e32;
@@ -142,4 +142,16 @@ img-container {
 }
 .color-html:hover {
   fill: var(--color-html);
+}
+
+/*mobile*/
+@media (max-width: 576px) {
+.card-container{
+  display: flex;
+   min-height: 400vh;
+   flex-direction: column;
+   margin: 0;
+   margin-top: 3rem;
+}
+
 }
