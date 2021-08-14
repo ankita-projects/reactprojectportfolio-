@@ -13,7 +13,7 @@ function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          I'm a fullstack developer based in Helsinki.I develope responsive web applications with Reactjs for frontend and express, nodejs, and PHP for backend. I have also experince in working with mongoDB, mySQL databases. 
+          I want to build a strong career in web Development and cloud DevOps. In my quest for expanding my learning horizon, I have been taking multiple Open University courses like Introduction to web development from Aalto university and Verkkosivujen kehittäminen AMkoddari from Laurea university. Fullstack web development course from Helsinki university. Here are the skills that I have acquired so far.
           </p>
         </div>
      
