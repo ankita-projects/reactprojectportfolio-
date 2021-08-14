@@ -146,11 +146,20 @@ img-container {
 
 /*mobile*/
 @media (max-width: 576px) {
+
+  html, body
+{
+width: 100%;
+overflow-x: hidden;
+}
 .card-container{
   display: flex;
-   min-height: 400vh;
+   height: 400vh;
    flex-direction: column;
-   margin: 0;
+   margin: 0px !important;
+ 
+   left: 0;
+   right: 0;
    margin-top: 3rem;
 }
 
