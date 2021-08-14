@@ -21,14 +21,9 @@ function Navbar(){
             <a href="#skills" className="mr-5 hover:text-white">
              Skills
             </a>
-            <a href="/resume" className="mr-5 hover:text-white">
+            <a href="#resume" className="mr-5 hover:text-white">
             Resume
             </a>
-            <BrowserRouter>
-            <Switch>
-            <Route exact path="/resume" component={Resume} />
-            </Switch>
-            </BrowserRouter>
             <a href="#contact" className="mr-5 hover:text-white">
              Contact
             </a>
